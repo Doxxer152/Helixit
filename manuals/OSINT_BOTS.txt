@@ -1,0 +1,143 @@
+This manual contains a collection of bots and services for extracting personal information by full name, TIN, SNILS, phone number, email, telegram account, social networks, counter agent, address.
+
+Phishing services, user agent, osint, metadata will also be collected here.
+
+Contact account  > @LackyBossss
+
+
+
+➣➣➣➣➣➣           Bots              ➣➣➣➣➣➣
+
+
+1. @phonenumberinformation_bot
+2. @Quick_osintik_bot
+3. @UniversalSearchRobot
+4. @search_himera_bot
+5. @Solaris_Search_Bot
+6. @Zernerda_bot
+7. @t_sys_bot
+8. @OSINTInfoRobot
+9. @LBSE_bot
+10. @SovaAppBot
+11. @poiskorcombot
+12. @SEARCHUA_bot
+13. @helper_inform_bot
+14. @infobazaa_bot
+15. @declassified_bot
+16. @GHack_search_bot
+17. @osint_databot
+18. @Informator_BelBot
+19. @HowToFindRU_Robot
+20. @SEARCH2UA_bot
+21. @UsersSearchBot
+22. @BITCOlN_BOT
+23. @ce_poshuk_bot
+24. @BlackatSearchBot
+25. @dataisbot
+26. @n3fm4xw2rwbot
+27. @cybersecdata_bot
+28. @safe_search_bot
+29. @getcontact_real_bot
+30. @PhoneLeaks_bot
+31. @useridinfobot 
+32. @mailcat_s_bot
+33. @last4mailbot
+34. @holehe_s_bot
+35. @bmi_np_bot
+36. @clerkinfobot
+37. @kolibri_osint_bot
+38. @getcontact_premium_bot
+39. @phone_avito_bot
+40. @pyth1a_0racle_bot
+41. @olx_phone_bot
+42. @ap_pars_bot
+43. @SPOwnerBot
+44. @regdatebot
+45. @ibhldr_bot
+46. @TgAnalyst_bot
+47. @cryptoscanning_bot
+48. @LinkCreatorBot
+49. @telesint_bot
+50. @Checknumb_bot
+51. @TelpoiskBot_bot
+52. @TgDeanonymizer_bot
+53. @protestchat_bot
+54. @locatortlrm_bot
+55. @GetCont_bot
+56. @usinfobot
+57. @SangMataInfo_bot
+58. @creationdatebot
+59. @tgscanrobot
+60. @InfoVkUser_bot
+61. @getfb_bot
+62. @GetOK2bot
+63. @VKHistoryRobot
+64. @detectiva_robot
+65. @FindNameVk_bot
+66. @vk2017robot
+67. @AgentFNS_bot
+68. @OpenDataUABot
+69. @egrul_bot
+70. @Bumz639bot
+80. @ogrn_bot
+90. @ShtrafKZBot
+91. @egrnrobot
+92. @VipiskaEGRNbot
+93. @Search_firm_bot
+94. @geomacbot
+95. @pwIPbot
+96. @ipscorebot
+97. @ip_score_checker_bot
+98. @FakeSMI_bot
+99. @ipinfo_check_bot
+100. @Search_IPbot
+101. @WhoisDomBot
+102. @vimebasebot
+103. @maigret_osint_bot
+104. @PasswordSearchBot
+105. @ddg_stresser_bot
+106. @BotAvinfo_bot
+107. @reverseSearch2Bot
+108. @pimeyesbot
+109. @findfacerobot
+110. @CarPlatesUkraineBot
+111. @nomerogrambot
+112. @ShtrafyPDRbot
+113. @cerbersearch_bot
+
+
+➣➣➣➣➣➣➣      sᴇʀᴠɪᴄᴇs       ➣➣➣➣➣➣
+
+
+
+1. https://egrul.nalog.ru/index.html
+
+2. https://www.social-searcher.com
+
+3. https://profi.avtocod.ru
+
+4.https://rmsp.nalog.ru/search.html?mode=quick#pnlSearchResult
+
+5. https://service.nalog.ru/inn.do
+
+6. https://interpol.int
+
+7. https://мвд.рф
+
+8. https://fsin.gov.ru
+
+9. https://fssp.gov.ru
+
+10. https://fedsfm.ru
+
+11. https://сервисы.гувм.мвд.рф
+
+12. https://гибдд.рф
+
+13. https://exbico.ru
+
+14. https://exbico.ru
+
+15. https://fssp.gov.ru/iss/ip
+
+16. https://peney.net

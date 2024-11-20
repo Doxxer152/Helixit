@@ -1,0 +1,11 @@
+Поиск по фото
+
+ Ресурсы
+├ azure.microsoft.com (https://azure.microsoft.com/ru-ru/services/cognitive-services/face/#item2Content-centered) — соотнесение лиц, определит вероятность того, что на двух разных изображениях изображен один и тот же человек, и выдаст оценку достоверности
+├ findclone.ru — поиск по базе из VK
+├ pimeyes.com — индексирует фото с сайтов, не точен, ограниченные возможности
+└ search4faces.com — поиск по базам лиц VK и OK. Не точен
+ Поисковые системы
+├ Yandex (https://yandex.ru/images/) - https://yandex.ru/images
+├ Google (https://www.google.com/imghp) - https://www.google.com/imghp
+└ Bing (https://www.bing.com/visualsearch) - https://www.bing.com/visualsearch
