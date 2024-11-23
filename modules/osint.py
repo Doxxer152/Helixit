@@ -106,7 +106,7 @@ def a(client):
             used = '--only-used' if len(args) == 3 and args[2] == 'used' else ''
             await event.edit("<b>🔎 Ищу информацию о почте...</b>", parse_mode='html')
 
-            result = subprocess.run(f"holehe {mail} {used}", capture_output=True, text=True, check=True)
+            result = subprocess.run(f"holehe {mail} {used}", capture_output=True, text=True, check=True, shell=True)
             result.stdout = "\n".join(result.stdout.split("\n")[4:])
             result.stdout = "\n".join(result.stdout.split("\n")[:-4])
             result.stdout = "\n".join([f"{line}" if "[+]" in line else line for line in result.stdout.split("\n")])
