@@ -1,6 +1,6 @@
 # Троллинг
 '''
-.troll</code> <code>.add</code> <code>.clean</code>:: Генерирует тролл сообщения. \n\n<b>Использование:</b> \n<code>.troll</code> <кол-во предложений> - отправит одно тролл сообщение \n<code>.add</code> <i>ID</i> - добавляет пользователя в список, и сливает его бесконечно делать реплай на сообщение или вписать айди\n<code>.clear</code> - очистит список всех сливаемых
+.troll</code> <code>.add</code> <code>.clean</code>:: Генерирует тролл сообщения. \n\n<b>Использование:</b> \n<code>.troll</code> - отправит одно тролл сообщение \n<code>.add</code> - добавляет пользователя в список, и сливает его бесконечно. Делать реплай на сообщение\n<code>.clear</code> - очистит список всех сливаемых
 '''
 
 import asyncio
@@ -328,12 +328,12 @@ bull_users = []
 
 def a(client):
 	
-	@client.on(events.NewMessage(pattern=r"\.add$", outgoing=True))
+	@client.on(events.NewMessage(pattern=r"\.add", outgoing=True))
 	async def _1(event):
 		global bull_users
 		reply = await event.get_reply_message()
 		if not reply:
-			await event.edit('<b>❌Использовать в ответ на сообщение или с ID</b>',parse_mode='html')
+			await event.edit('<b>❌Использовать в ответ на сообщение</b>',parse_mode='html')
 			return
 		
 		try:
