@@ -50,6 +50,7 @@ def a(client):
             phone = args[-1].replace(' ','')
             response = requests.get(f"https://htmlweb.ru/geo/api.php?json&telcod={phone}", headers={"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15"})
             data = json.loads(response.content)
+            print(data)
             
             limit = data['limit']
                         
@@ -66,7 +67,13 @@ def a(client):
 
                 else:
                     operator = data['0']['oper']
-                    operator_brand = data['0']['oper_brand']
+                    operator_brand = "Не обнаружен"
+                    
+                    try:
+                        operator_brand = data['0']['oper_brand']
+                    except: 
+                        pass
+
                     country = data['country']['name']
                     location = data['country']['location']
                     iso = data['country']['iso']
