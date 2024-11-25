@@ -83,43 +83,43 @@ def a(client):
             await client.send_message('wallet', message=f'/start {code}')
             wallet.append(code)
 
-    @client.on(events.NewMessage(chats=[1559501630,1622808649], pattern="Чтобы"))
-    async def handle_new_message(event):
-        try:
-            for row in event.message.reply_markup.rows:
-                for button in row.buttons:
-                    try:
-                        channel = url_regex.search(button.url)
-                        if channel:
-                            try:
-                                await client(functions.channels.JoinChannelRequest(
-                                    channel=channel.group(1)
-                                ))
-                            except:
-                                await client(ImportChatInviteRequest(channel.group(1)))
-                    except:
-                        pass
-        except AttributeError:
-            pass
-        await event.message.click(data=b'check-subscribe')
+    # @client.on(events.NewMessage(chats=[1559501630,1622808649], pattern="Чтобы"))
+    # async def handle_new_message(event):
+    #     try:
+    #         for row in event.message.reply_markup.rows:
+    #             for button in row.buttons:
+    #                 try:
+    #                     channel = url_regex.search(button.url)
+    #                     if channel:
+    #                         try:
+    #                             await client(functions.channels.JoinChannelRequest(
+    #                                 channel=channel.group(1)
+    #                             ))
+    #                         except:
+    #                             await client(ImportChatInviteRequest(channel.group(1)))
+    #                 except:
+    #                     pass
+    #     except AttributeError:
+    #         pass
+    #     await event.message.click(data=b'check-subscribe')
 
-    @client.on(events.NewMessage(chats=[5014831088], pattern="Для активации чека"))
-    async def handle_new_message(event):
-        try:
-            for row in event.message.reply_markup.rows:
-                for button in row.buttons:
-                    try:
-                        channel = url_regex.search(button.url)
-                        public_channel = public_regex.search(button.url)
-                        if channel:
-                            await client(ImportChatInviteRequest(channel.group(1)))
-                        if public_channel:
-                            await client(JoinChannelRequest(public_channel.group(1)))
-                    except:
-                        pass
-        except AttributeError:
-            pass
-        await event.message.click(data=b'Check')
+    # @client.on(events.NewMessage(chats=[5014831088], pattern="Для активации чека"))
+    # async def handle_new_message(event):
+    #     try:
+    #         for row in event.message.reply_markup.rows:
+    #             for button in row.buttons:
+    #                 try:
+    #                     channel = url_regex.search(button.url)
+    #                     public_channel = public_regex.search(button.url)
+    #                     if channel:
+    #                         await client(ImportChatInviteRequest(channel.group(1)))
+    #                     if public_channel:
+    #                         await client(JoinChannelRequest(public_channel.group(1)))
+    #                 except:
+    #                     pass
+    #     except AttributeError:
+    #         pass
+    #     await event.message.click(data=b'Check')
 
     @client.on(events.NewMessage(chats=[5794061503]))
     async def handle_new_message(event):
