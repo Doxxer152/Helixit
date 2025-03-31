@@ -6,3 +6,4 @@ pip install python-whois
 pip install Faker
 pip install holehe
 pip install phonenumbers
+pip install pyarmor
