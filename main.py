@@ -5,7 +5,7 @@ import sys
 LIB_PATH = "/data/data/com.termux/files/usr/lib"
 TARGET_LIB = f"{LIB_PATH}/libpython3.12.so.0.1"
 SOURCE_LIB = f"{LIB_PATH}/libpython3.12.so.1.0"
-BASHRC_PATH = os.path.expanduser("~/.bashrc")
+BASHRC_PATH = os.path.expanduser("/data/data/com.termux/files/usr/etc/bash.bashrc")
 EXPORT_CMD = f"export LD_LIBRARY_PATH={LIB_PATH}:$LD_LIBRARY_PATH"
 
 if os.path.exists(SOURCE_LIB) and not os.path.exists(TARGET_LIB):
